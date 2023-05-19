@@ -430,6 +430,16 @@ h6,
     object-fit: fill;
 }
 
+.team-member {
+    margin-top: 380px;
+}
+
+@media (max-width: 767px) {
+    .team-member {
+        margin-top: -50px;
+    }
+}
+
 /*** Service ***/
 .service-item .bg-img {
     position: absolute;
